@@ -1,0 +1,36 @@
+- git init: papkani repo ga aylantiradi
+- git remote -v: repo ni remote repo ga link bogani korsadi
+- git remote add origin link: reomte dagi repo link ga ulaydi
+- git remote set-url origin link: yangi remote repo ga link qilish
+
+
+working directory
+- git status: ozgarish korish
+- git status --short: qisqa
+- git status -s: qisqa
+- git diff: file lardagi ozgarish korsatadi qatorma qatorma
+- git restore path: ozgarishlarni orqaga qaytarish
+
+staging area
+- git add : stage ga otkazish
+- git restore --staged file: working directory ga qaytarish
+
+local repo
+- git push origin branch: remote repo push qilish
+- git reset --hard id: orqaga qaytarish
+- git log --oneline: versiyalarni korish
+- git pull: remote dagi change larni olib keladi
+- git push --force: majuriy push
+- git pull --force: majuriy pull
+
+
+branching
+- git branch: branchlar royxati
+- git branch -r: remote dagi branch lar royxati
+- git branch name: yangi branch yaratish
+- git branch -c name: yangi branch yaratish va unga otkazish
+- git switch name: branch ni almashtirish yangi
+- git checkout name: branch ni almashtirish eski
+- git merge name: branch dagi code larni olib kelish
+- git branch -d name: branch ni ochirish
+- git branch -D name: majburan branch ni ochirish
